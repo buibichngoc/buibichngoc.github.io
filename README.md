@@ -5,4 +5,4 @@
 - IT Support
 - dạy hack qua Teamviewer
 - dạy PTS qua teamviewer
-- Mọi liên hệ: facebook.com/buibichngocit
+- Mọi liên hệ/contact: https://www.facebook.com/buibichngocit
