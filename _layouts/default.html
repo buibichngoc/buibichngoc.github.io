@@ -27,49 +27,31 @@
 
 	</script>
   </head>
-  <body>
+<body>
     <div class="wrapper">
       <header>
         <h1 class="header">Bui Bich Ngoc</h1>
         <p class="header">Working on...</p>
-
         <ul>
-          {% if site.show_downloads %}
-            <li class="download"><a class="buttons" href="https://www.facebook.com/buibichngocit">Facebook</a></li>
-            <li class="download"><a class="buttons" href="https://plus.google.com/u/1/106055423552676105332">Google Plus</a>
-          {% endif %}
-          <li><a class="buttons github" href="https://buibichngoc.github.io/cv/">View My CV</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/harrisonford/awesome/zipballmus/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/harrisonford/awesome/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="http://github.com/harrisonford/awesome">View On GitHub</a></li>
         </ul>
-
-        {% if site.github.is_project_page %}
-          <p class="header">This project is maintained by <a class="header name" href="https://buibichngoc.github.io/">BuiBichNgoc</a></p>
-        {% endif %}
-
-        {% if site.github.is_user_page %}
-          <ul>
-            <li><a class="buttons github" href="https://buibichngoc.github.io/cv/">View My CV</a></li>
-          </ul>
-        {% endif %}
+        <p class="header">This project is maintained by <a class="header name" href="http://github.com/harrisonford">Harrison Ford</a></p>
       </header>
-
       <section>
+		<ul style=" font-family: Arvo, sans-serif; padding: 20px; list-style: none; font-weight: bold; font-size: 50px; ">
+	        <li style=" display: inline; margin-right: 20px;"><a href="/">Home</a></li>
+		    <li style=" display: inline; margin-right: 20px;"><a href="/about">About</a></li>
+	        <li style=" display: inline; margin-right: 20px;"><a href="/cv">CV</a></li>
+	        <li style=" display: inline; margin-right: 20px;"><a href="/blog">Blog</a></li>
+		</ul>
         {{ content }}
       </section>
-
       <footer>
-        <p><small>BuiBichNgoc's Page <a href="https://buibichngoc.github.io/">GitHub Pages</a> code by Bui Bich Ngoc</small></p>
+        <p><small>Hosted on <a href="http://pages.github.com/">GitHub Pages</a> using the <a href="https://github.com/broccolini/dinky">Dinky theme</a></small></p>
       </footer>
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    {% if site.google_analytics %}
-      <script type="text/javascript">
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
-      </script>
-    {% endif %}
+    <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
   </body>
 </html>
