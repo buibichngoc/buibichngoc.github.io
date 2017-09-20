@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "bui bich ngoc"
+title: "my first post testing"
 date: 2017-09-19
 ---
 
