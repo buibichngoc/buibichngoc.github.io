@@ -1,6 +1,6 @@
-<!doctype html>
-<html>
+<html lang="en-us">
 <head>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -59,8 +59,8 @@
     </script>
 
 </head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
 
-<body>
 <nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
     <div class="container">
 
@@ -71,50 +71,132 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="https://buibichngoc.github.io/">BuiBichNgoc</a>
+            <a class="navbar-brand" href="https://buibichngoc.github.io/">Academic</a>
         </div>
 
-        <div class="collapse navbar-collapse">
+        <div class="navbar-collapse collapse" aria-expanded="false" style="height: 0px;">
 
             <ul class="nav navbar-nav navbar-right">
 
-                <li class="nav-item"><a href="/"><span>Home</span></a></li>
+                <li class="nav-item active"><a href="/" data-target="#about"><span>Home</span></a></li>
 
-                <li class="nav-item"><a href="/about"><span>About</span></a></li>
+                <li class="nav-item"><a href="/about" data-target="#publications_selected"><span>About</span></a></li>
 
-                <li class="nav-item"><a href="/cv"><span>CV</span></a></li>
+                <li class="nav-item"><a href="/cv" data-target="#posts"><span>CV</span></a></li>
 
-                <li class="nav-item"><a href="/blog"><span>Blog</span></a></li>
-
+                <li class="nav-item"><a href="/blog" data-target="#projects"><span>Blog</span></a></li>
             </ul>
-
         </div>
+
     </div>
 </nav>
-<div class="wrapper">
-    <header>
-        <h1 class="header">Bui Bich Ngoc</h1>
-        <p class="header">Working on...</p>
-        <ul>
-            <li class="download"><a class="buttons" href="https://www.facebook.com/buibichngocit">Facebook</a></li>
-            <li class="download"><a class="buttons" href="https://plus.google.com/u/1/106055423552676105332">Google+</a>
-            </li>
-            <li><a class="buttons github" href="https://buibichngoc.github.io/cv/">View My CV</a></li>
-        </ul>
-        <p class="header">This project is by <a class="header name" href="https://www.facebook.com/buibichngocit">Bui
-            Bich Ngoc</a></p>
-    </header>
-    <section>
-        {{ content }}
-    </section>
-    <footer>
-        <p>
-            <small>GitHub Page<a href="https://buibichngoc.github.io/"> Bui Bich Ngoc</a> using the <a
-                    href="https://github.com/buibichngoc/buibichngoc.github.io/"> theme Bui Bich Ngoc</a></small>
-        </p>
-    </footer>
-</div>
-<!--[if !IE]>
-<script>fixScale(document);</script><!--<![endif]-->
+
+
+<span id="homepage" style="display: none"></span>
+
+
+<section id="about" class="home-section">
+    <div class="container">
+
+        <div class="row" itemprop="author" itemscope="" itemtype="http://www.facebook.com/buibichngocit/" itemref="person-email person-telephone person-address">
+
+            <div class="col-xs-12 col-md-4">
+                <div id="profile">
+
+                    <div class="portrait" style="background-image: url('/images/portrait.jpg');"></div>
+                    <meta itemprop="image" content="/images/portrait.jpg">
+
+                    <div class="portrait-title">
+                        <h2 itemprop="name">BuiBichNgoc</h2>
+                        <h3 itemprop="jobTitle">IT</h3>
+
+                        <h3 itemprop="worksFor" itemscope="" itemtype="http://buibichngoc.github.io/">
+
+                            <span itemprop="name">The Academy of Cryptogaphy Techniques</span>
+
+                        </h3>
+
+                    </div>
+
+                    <link itemprop="url" href="https://buibichngoc.github.io/">
+
+                    <ul class="social-icon" aria-hidden="true">
+
+                        <li><a itemprop="sameAs" href="mailto:buibichngocat8c@gmail.com" target="_blank"><i class="fa fa-envelope big-icon"></i></a></li>
+
+                        <li><a itemprop="sameAs" href="https://twitter.com/buibichngocit" target="_blank"><i class="fa fa-twitter big-icon"></i></a></li>
+
+                        <li><a itemprop="sameAs" href="https://scholar.google.co.uk/citations?user=K1V8hJ4AAAAJ&hl" target="_blank"><i class="ai ai-google-scholar big-icon"></i></a></li>
+
+                        <li><a itemprop="sameAs" href="https://github.com/buibichngoc" target="_blank"><i class="fa fa-github big-icon"></i></a></li>
+
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-md-8" itemprop="description">
+
+                <h1 id="biography">Biography</h1>
+
+                <p>Bui Bich Ngoc is a security system administratorbut now is a coder. Her research interests cloud computing and programmable matter.</p>
+
+                <p>Love reading books.</p>
+
+                <div class="row">
+
+                    <div class="col-sm-5"><h3>Interests</h3>
+                        <ul class="ul-interests">
+                            <li>Computational Linguistics</li>
+                            <li>Information Retrieval</li>
+                            <li>Raspberry Pi</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-7"><h3>Education</h3>
+                        <ul class="ul-edu fa-ul">
+                            <li>
+                                <i class="fa-li fa fa-graduation-cap"></i>
+                                <div class="description">
+                                    <p class="course">Engineer's Degree, 2016</p>
+                                    <p class="institution">The Academy of Cryptogaphy Techniques</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"
+        integrity="sha512-jGsMH83oKe9asCpkOVkBnUrDDTp8wl+adkB2D+//JtlxO4SrLoJdhbOysIFQJloQFD+C4Fl1rMsQZF76JjV0eQ=="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.2/imagesloaded.pkgd.min.js"
+        integrity="sha512-iHzEu7GbSc705hE2skyH6/AlTpOfBmkx7nUqTLGzPYR+C1tRaItbRlJ7hT/D3YQ9SV0fqLKzp4XY9wKulTBGTw=="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"
+        integrity="sha512-Z5heTz36xTemt1TbtbfXtTq5lMfYnOkXM2/eWcTTiLU01+Sw4ku1i7vScDc8fWhrP2abz9GQzgKH5NGBLoYlAw=="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/ScrollToPlugin.min.js"
+        integrity="sha512-CDeU7pRtkPX6XJtF/gcFWlEwyaX7mcAp5sO3VIu/ylsdR74wEw4wmBpD5yYTrmMAiAboi9thyBUr1vXRPA7t0Q=="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ=="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js"
+        integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ=="
+        crossorigin="anonymous"></script>
+
+<script src="/js/bio.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
 </body>
 </html>
