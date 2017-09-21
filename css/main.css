@@ -274,14 +274,6 @@ a.buttons:hover {
     text-decoration: none;
 }
 
-/* Section - for main page content */
-
-/*section {
-    width: 650px;
-    float: right;
-    padding-bottom: 50px;
-}*/
-
 /* Footer */
 
 footer {
@@ -299,7 +291,7 @@ footer {
         margin: 0;
     }
 
-    header, section, footer {
+    header, footer {
         float: none;
         position: static;
         width: auto;
@@ -315,10 +307,6 @@ footer {
         padding-right: 320px;
     }
 
-    section {
-        padding: 20px 84px 20px 50px;
-        margin: 0 0 20px;
-    }
 
     header a small {
         display: inline;
@@ -341,10 +329,6 @@ footer {
         margin-right: 0;
     }
 
-    section {
-        padding: 10px 0 10px 10px;
-        margin: 0 0 30px;
-    }
 
     footer {
         margin: 0 0 0 30px;
